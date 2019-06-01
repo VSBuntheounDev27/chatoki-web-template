@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.header{
+    width: 80%;
+    background: white;
+    margin: auto;
+}
+
+.header .top-logo{
+    float: right;
+    text-decoration: none;
+}
+
+.sign-in-up{
+    width: 80%;
+    margin-top: 40px;
+}
+
+.social-media{
+    width: 50%;
+    margin-top: 35px;
+    font-size: 25px;
+    text-align: left;
+    color: green;
+    float: left;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: forestgreen;
+}
+
+.top-menu{
+    width: 100%;
+    background: green;
+    position: relative;
+}
+
+.top-menu .menu{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.new{
+    position: absolute;
+    top: -10px;
+    left: 330px;
+    color: white;
+    background: greenyellow;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 5px;
+    z-index: 1002;
+    text-align: center;
+    width: 25px;
+    border-radius: 25px;
+}
+
+.top-menu .menu ul{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.top-menu .menu ul li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.top-menu .menu ul li a{
+    color: rgb(236, 233, 233);
+    text-decoration: none;
+}
+
+.slide-show{
+    position: relative;
+}
+
+.content-promote{
+    width: 30%;
+    position: absolute;
+    z-index: 100;
+    top: 100px;
+    left: 225px;
+    color: black;
+}
+
+.sticker-promote{
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    z-index: 1001;
+}
+
+.sticker-promote .outer{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: darkgreen;
+    z-index: 101;
+    padding: 5px;
+}
+
+.sticker-promote .outer .inner{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: darkgreen;
+    z-index: 102;
+    top: 2.5px;
+    right: 3px;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+}
+
+.latest-pro-show{
+    width: 60%;
+    margin: auto;
+}
+
+.latest-pro-show .row img{
+    width: 100%;
+    height: 250px;
+}
+
+.blog{
+    width: 100%;
+    height: 200px;
+    background: url("../../photos/bg-blog.jpg") repeat;
+    position: relative;
+}
+
+.read-more{
+    padding: 5px 20px; background: limegreen; color: white; font-weight: bold; text-align: center; width: 10%; border-radius: 25px;
+    text-decoration: none;
+}
+
+.content-blog{
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    bottom: 20%;
+    right: 20%;
+}
+
+.video-show{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.new-feed{
+    width: 100%;
+    background: darkgreen;
+    padding-bottom: 50px;
+}
+
+.new-feed .container{
+    width: 70%;
+    margin: auto;
+}
+
+.new-feed-inner{
+    width: 90%;
+    margin: auto;
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.new-feed-inner img{
+    height: 200px;
+    border-radius: 5px;
+}
+
+.read-more-feed{
+    padding: 5px 10px;
+    width: 40%;
+    border: 1px solid green;
+    color: green;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.new-feed-inner .row {
+    margin-top: 10px;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a{
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+}
